@@ -40,7 +40,7 @@ noise_choice = st.sidebar.selectbox(
 
 ai_assist = st.sidebar.toggle("💡 Activate AI-Driven Parameter Initialization", value=True)
 st.sidebar.markdown("---")
-st.sidebar.caption("Developed by Büşra Şahinal - Marine Engineer & AI Researcher")
+st.sidebar.caption("© 2026 Büşra Şahinal. All rights reserved.")
 
 meta = qe.get_molecule_metadata(molecule_choice)
 col1, col2 = st.columns([1, 2])
